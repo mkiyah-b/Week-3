@@ -32,21 +32,21 @@ typeText.forEach(typeWriter => {
 })
 
 // move the fireflies
-    const jarPos = document.querySelector("#tallJar");
-    console.log(jarPos.y);
-    const fireflies = document.querySelectorAll("#ff1");
-    fireflies.forEach(firefly => {
-        let randomHeight = (Math.random() * 500) + jarPos.y + 200; 
-        // console.log(randomHeight);
-        firefly.style.top = randomHeight + "px";
+    // const jarPos = document.querySelector("#tallJar");
+    // console.log(jarPos.y);
+    // const fireflies = document.querySelectorAll("#ff1");
+    // fireflies.forEach(firefly => {
+    //     let randomHeight = (Math.random() * 500) + jarPos.y + 200; 
+    //     // console.log(randomHeight);
+    //     firefly.style.top = randomHeight + "px";
         
-        let randomWidth = (Math.random() * 300) + jarPos.x + 300; 
-        // console.log(randomWidth);
-        firefly.style.left = randomWidth + "px";
+    //     let randomWidth = (Math.random() * 300) + jarPos.x + 300; 
+    //     // console.log(randomWidth);
+    //     firefly.style.left = randomWidth + "px";
         
-        let randomLength = (Math.random() * 35) + 20;
-        // console.log(randomLength);
-        firefly.style.width = randomLength + "px";
-    })
+    //     let randomLength = (Math.random() * 35) + 20;
+    //     // console.log(randomLength);
+    //     firefly.style.width = randomLength + "px";
+    // })
     
 
