@@ -3,6 +3,10 @@
     Typewriter Effect--
     https://css-tricks.com/snippets/css/typewriter-effect/ 
     https://dev.to/afif/a-multi-line-css-only-typewriter-effect-3op3
+
+    Firefly Animation--
+    https://www.geeksforgeeks.org/css/create-a-css-fireflies-background-using-html-css/
+    
 */
 
 
@@ -186,18 +190,3 @@ updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1);
 .imgDiv a:nth-of-type(4){
     animation-duration: 35s, 90s, 0.01s;
 }
-/* .imgDiv a:nth-of-type(3) {
-    animation-delay: 1.5s;
-    animation-duration: 70s, 60s, 0.01s;
-    animation-fill-mode: backwards, backwards;
-}
-
-.imgDiv a:nth-of-type(4) {
-    animation-delay: 2.5s;
-    animation-duration: 90s, 80s, 0.01s;
-}
-
-.imgDiv a:nth-of-type(5) {
-    animation-delay: 0.3s;
-    animation-duration: 55s, 75s, 0.01s;
-} */
