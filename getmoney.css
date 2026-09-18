@@ -111,6 +111,93 @@ html {
 .imgDiv a {
     position: absolute;
     justify-content: center;
-    top: 10%;
-    left: 40%;
+    /* top: 10%;
+    left: 40%; */
+
+    animation: leftright 24s infinite cubic-bezier(0.39, 0, 0.63, 1),
+updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1);
 }
+
+@keyframes leftright {
+
+    0%,
+    100% {
+        left: 45%;
+    }
+
+    16.666% {
+        left: 50%;
+    }
+
+    33.333% {
+        left: 35%;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    66.666% {
+        left: 45%;
+    }
+
+    83.333% {
+        left: 35%;
+    }
+}
+
+/* It will create the up down movement */
+@keyframes updown {
+
+    0%,
+    100% {
+        top: 30%;
+    }
+
+    25% {
+        top: 20%;
+    }
+
+    50% {
+        top: 35%;
+    }
+
+    75% {
+        top: 5%;
+    }
+}
+
+.imgDiv a:nth-of-type(1) {
+  /* animation-delay: 1s; */
+  animation-duration: 65s, 81s, 0.01s;
+  animation-fill-mode: backwards, backwards;
+}
+
+.imgDiv a:nth-of-type(2) {
+    /* animation-delay: 0.5s; */
+    animation-duration: 20s, 75s, 0.01s;
+}
+
+.imgDiv a:nth-of-type(3){
+    animation-duration: 30s, 20s, 0.01s;
+    animation-fill-mode: backwards, backwards;
+}
+
+.imgDiv a:nth-of-type(4){
+    animation-duration: 35s, 90s, 0.01s;
+}
+/* .imgDiv a:nth-of-type(3) {
+    animation-delay: 1.5s;
+    animation-duration: 70s, 60s, 0.01s;
+    animation-fill-mode: backwards, backwards;
+}
+
+.imgDiv a:nth-of-type(4) {
+    animation-delay: 2.5s;
+    animation-duration: 90s, 80s, 0.01s;
+}
+
+.imgDiv a:nth-of-type(5) {
+    animation-delay: 0.3s;
+    animation-duration: 55s, 75s, 0.01s;
+} */
