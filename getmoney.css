@@ -6,7 +6,7 @@
 
     Firefly Animation--
     https://www.geeksforgeeks.org/css/create-a-css-fireflies-background-using-html-css/
-    
+
 */
 
 
@@ -75,7 +75,7 @@ html {
   justify-content: center;
 
   /* text-align: center; */
-  padding-top: 10px;
+  /* padding-top: 10px;
   #tallJar {
     width: 800px;
     object-fit: cover;
@@ -85,7 +85,7 @@ html {
     position: absolute;
     top: 150px;
     padding: 10px;
-  }
+  } */
 }
 .trifold {
   justify-content: center;
@@ -113,10 +113,11 @@ html {
 }
 
 .imgDiv a {
-    position: absolute;
+    position: fixed;
     justify-content: center;
     /* top: 10%;
     left: 40%; */
+    width: 20%;
 
     animation: leftright 24s infinite cubic-bezier(0.39, 0, 0.63, 1),
 updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1);
@@ -159,11 +160,11 @@ updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1);
     }
 
     25% {
-        top: 20%;
+        top: 25%;
     }
 
     50% {
-        top: 35%;
+        top: 45%;
     }
 
     75% {
