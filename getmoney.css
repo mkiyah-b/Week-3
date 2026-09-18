@@ -123,8 +123,9 @@ html {
     left: 40%; */
     /* width: 5%; */
 
-    animation: leftright 24s infinite cubic-bezier(0.39, 0, 0.63, 1),
-updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1);
+    animation: 
+        leftright 24s infinite cubic-bezier(0.39, 0, 0.63, 1),
+        updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1);
 }
 
 @keyframes leftright {
