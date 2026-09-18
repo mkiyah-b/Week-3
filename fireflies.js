@@ -1,28 +1,36 @@
-// character count for typewriter
-const headText = document.querySelector("#header");
-if(headText) {
-    const headWordCount = headText.textContent.length;
-    console.log(headWordCount);
-    headText.style.cssText = "--n: " + headWordCount;
-    // console.log(headText.style.cssText);
-}
-else {
-    console.log("Header Error");
-}
+// // character count for typewriter
+// const headText = document.querySelector("#header");
+// if(headText) {
+//     const headWordCount = headText.textContent.length;
+//     console.log(headWordCount);
+//     headText.style.cssText = "--n: " + headWordCount;
+//     // console.log(headText.style.cssText);
+// }
+// else {
+//     console.log("Header Error");
+// }
 
 
-const paraText = document.querySelector("#paragraph");
-if(paraText) {
-    const paraWordCount = paraText.textContent.length;
-    console.log(paraWordCount);
-    paraText.style.cssText = "--n: " + paraWordCount;
-    // console.log(paraText.style.cssText);
-}
-else {
-    console.log("Paragraph Error");
-}
+// const paraText = document.querySelector("#paragraph");
+// if(paraText) {
+//     const paraWordCount = paraText.textContent.length;
+//     console.log(paraWordCount);
+//     paraText.style.cssText = "--n: " + paraWordCount;
+//     // console.log(paraText.style.cssText);
+// }
+// else {
+//     console.log("Paragraph Error");
+// }
 
    
+const typeText = document.querySelectorAll("#typeText");
+typeText.forEach(typeWriter => {
+    const wordCount = typeWriter.textContent.length;
+    console.log(wordCount);
+    typeWriter.style.cssText = "--n: " + wordCount;
+    // console.log(paraText.style.cssText);
+})
+
 // move the fireflies
     const jarPos = document.querySelector("#tallJar");
     console.log(jarPos.y);
