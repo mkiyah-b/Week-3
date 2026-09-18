@@ -160,7 +160,7 @@ updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1);
 
     0%,
     100% {
-        top: 30%;
+        top: 50%;
     }
 
     25% {
@@ -168,11 +168,11 @@ updown 8s infinite 1.25s cubic-bezier(0.39, 0, 0.63, 1);
     }
 
     50% {
-        top: 55%;
+        top: 75%;
     }
 
     75% {
-        top: 15%;
+        top: 35%;
     }
 }
 
